@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+float main(){
+    float salario, aumento, salario2;
+
+    printf("Digite o valor do salario de um funcionario:\n");
+    scanf("%f", &salario);
+
+    aumento = salario * 0.25;
+    salario2 = salario + aumento;
+
+    printf("O novo salario do funcionario eh:\n R$ %f \n", salario2);
+
+    system("pause");
+
+    return 0;
+}
